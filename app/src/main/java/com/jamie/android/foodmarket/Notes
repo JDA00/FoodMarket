@@ -1,0 +1,7 @@
+TODO:
+
+Finish CRUD (Delete still undone)
+
+Add exception handling for User input
+
+Implement remote storage copy of User data (Firebase)

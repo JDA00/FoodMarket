@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FoodMarket</string>
+
+
+    <string name="food_name_hint">Enter a name for your produce</string>
+    <string name="food_name_label">Food Name</string>
+
+    <string name="food_category_hint">Pick a category for your produce</string>
+    <string name="food_category_label">Category</string>
+
+    <string-array name="food_categories">
+        <item>Fruit &amp; Vegetables</item>
+        <item>Dairy</item>
+        <item>Poultry</item>
+        <item>Fish</item>
+        <item>Meat</item>
+        <item>Baked</item>
+    </string-array>
+
+
+    <string name="food_quantity_hint">Enter a quantity for your produce</string>
+    <string name="food_quantity_label">Quantity</string>
+
+    <string name="food_freshness_hint">How many days will your produce be fresh for?</string>
+    <string name="food_freshness_label">Fresh for</string>
+
+    <string name="food_date_label">Click to add produce</string>
+
+    <string name="food_item_name">Placeholder Name</string>
+    <string name="food_item_date">Placeholder Date</string>
+
+    <string name="new_produce">New Produce</string>
+    <string name="remove_produce">Remove Produce</string>
+
+
+</resources>
