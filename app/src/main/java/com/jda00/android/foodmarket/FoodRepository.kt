@@ -1,4 +1,4 @@
-package com.jamie.android.foodmarket
+package com.jda00.android.foodmarket
 
 import android.content.Context
 import androidx.lifecycle.LiveData

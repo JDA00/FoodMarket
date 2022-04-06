@@ -2,7 +2,7 @@ package database
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.jamie.android.foodmarket.Food
+import com.jda00.android.foodmarket.Food
 import java.util.*
 
 @Dao

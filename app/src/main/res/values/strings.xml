@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodMarket</string>
+    <string name="app_name">Food Market</string>
 
 
     <string name="food_name_hint">Enter a name for your produce</string>

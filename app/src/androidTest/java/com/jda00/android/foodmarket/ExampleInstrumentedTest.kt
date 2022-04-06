@@ -1,4 +1,4 @@
-package com.jamie.android.foodmarket
+package com.jda00.android.foodmarket
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

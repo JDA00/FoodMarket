@@ -1,4 +1,4 @@
-package com.jamie.android.foodmarket
+package com.jda00.android.foodmarket
 
 import android.os.Bundle
 import android.text.Editable
@@ -6,13 +6,12 @@ import android.text.TextWatcher
 import android.util.Log
 import android.view.*
 import android.widget.*
-import androidx.core.view.get
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import androidx.lifecycle.ViewModelProviders
 import java.util.*
 import androidx.lifecycle.Observer
+import com.jda00.android.foodmarket.R
+
 
 private const val TAG = "FoodFragment"
 private const val ARG_FOOD_ID = "food_id"
@@ -54,11 +53,11 @@ class FoodFragment : Fragment(), View.OnClickListener {
         val view = inflater.inflate(R.layout.fragment_food, container, false)
 
 
-        nameField = view.findViewById(R.id.food_name) as EditText
-        quantityField = view.findViewById(R.id.food_quantity) as EditText
-        freshnessField = view.findViewById(R.id.food_freshness) as EditText
+        nameField = view.findViewById(R.id.food_name)
+        quantityField = view.findViewById(R.id.food_quantity)
+        freshnessField = view.findViewById(R.id.food_freshness)
 
-        addProduceButton = view.findViewById(R.id.food_date) as Button
+        addProduceButton = view.findViewById(R.id.food_date)
         addProduceButton.setOnClickListener(this)
 
         // Button
@@ -68,7 +67,7 @@ class FoodFragment : Fragment(), View.OnClickListener {
 
         }
 
-        spinner = view.findViewById(R.id.category) as Spinner
+        spinner = view.findViewById(R.id.category)
 
         return view
     }
@@ -210,7 +209,6 @@ class FoodFragment : Fragment(), View.OnClickListener {
 //            else -> return super.onOptionsItemSelected(item)
 //        }
 //    }
-
 
 
     // Saving onStop()
