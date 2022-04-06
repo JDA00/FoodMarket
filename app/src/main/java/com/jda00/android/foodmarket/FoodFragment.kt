@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import java.util.*
 import androidx.lifecycle.Observer
-import com.jda00.android.foodmarket.R
+
 
 
 private const val TAG = "FoodFragment"
