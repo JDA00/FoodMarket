@@ -2,6 +2,7 @@ package com.jda00.android.foodmarket
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.jda00.android.foodmarket.R
 import java.util.*
 
 private const val TAG = "MainActivity"
